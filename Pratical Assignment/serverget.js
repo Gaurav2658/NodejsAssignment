@@ -17,7 +17,7 @@ var server = http.createServer(function(req,res){
         res.write("List");        
         res.end();
     }
-    else if(req.url=="/index1.html" && req.method== 'GET')
+    else if(req.url=="/index1.html" && req.method == 'GET')
     {
         var filename = "./index1.html";
         fs.readFile(filename,function(err,data){

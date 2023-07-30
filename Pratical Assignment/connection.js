@@ -17,7 +17,7 @@ db.connect()
     console.log("Connected!!");
 
 
-    var sql = "INSERT INTO employee (username, password, firstname, lastname, email) VALUES ('Gaurav', 'GB', 'Bhadoriya', 'Gaurav', 'bhadoriyagaurav1@gmail.com')";
+    var sql = "INSERT INTO employee (username, password, firstname, lastname, email) VALUES ('raj', 'rt', 'tripathi', 'raj', 'raj123@gmail.com')";
    
     return db.exec(sql);
  
